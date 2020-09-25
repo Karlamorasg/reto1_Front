@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+}
+
+.header{
+background-image: url(./images/bg-pattern-top-mobile.svg);
+background-repeat: no-repeat;
+display: flex;
+flex-wrap: wrap;
+height:  323px;
+justify-content: center;
+align-content: flex-end;
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.title h1{
+    font-size: 29px;
+    margin: 0;
+    color:hsl(300, 43%, 22%);  
+}
+
+.subtitle {
+    font-size: 13px;
+    color:hsl(303, 10%, 53%);
+    margin: 10px;
+    line-height: 25px;
+  
+}
+
+
+.subtitle p{
+    padding-left: 29px;
+    padding-right: 26px;
+    text-align: center;
+
+}
+
+.box{
+    margin: 20px;
+    height: 90px;
+    background-color: hsl(300, 24%, 96%);
+    color:hsl(300, 43%, 22%);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.stars{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 260px;
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    color:white;
+    border-radius: 15px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inside1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.inside1 {
+    margin-left: 30px;
+    margin-top: 30px;
+  
+
+}
+
+.inside1 span{
+    float: right;
+    margin-top: 12px;
+    padding-left: 23px;
+    font-weight: bold;
+
+}
+
+.inside1 p{
+ margin: 0;
+ padding-left: 60px;
+ color: hsl(333, 80%, 67%);
+ font-size: 13px;
+ line-height: 0px;
+text-align: center;
+
+}
+
+.inside2 {
+    text-align: center;
+    margin: 0px 25px 0px 25px;
+}
+
+
+
+@media (min-width:767px) and (max-width:1024px){
+
+    .cards_box{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .card{
+        width: 40%;
+        height: auto;
+    }
+
+    .inside1 span{
+
+        margin-top: 13px;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    .contenedor{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .header{
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 50%;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-content: center;
+    text-align: justify;
+ 
+    }
+
+
+    .subtitle p {
+        
+        margin-left: -40px;
+        text-align: justify;
+        width: 380px;
+        height: 100px;
+        
+    }
+
+    .star_box {
+        width: 50%;
+        display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .box{
+        width: 70%;
+        height: 75px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+
+    .stars{
+        display: inline;
+        padding-top: 0;
+        padding-left: 30px;
+    }
+
+    .text{
+        padding-left: 30px;
+    }
+
+
+
+
+
+    .cards_box{
+        height: 500px;
+        width: 100%;
+        background-image: url(./images/bg-pattern-bottom-desktop.svg);
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+       justify-content: center
+    }
+
+
+    .card{
+        width: 350px;
+    }
+
+    
+} 
