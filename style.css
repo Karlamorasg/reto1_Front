@@ -106,20 +106,6 @@ text-align: center;
 }
 
 
-#box2{
-margin-left: 10%;
-}
-#box3{
-    margin-left: 20%;
-}
-
-#card2{
-    margin-top: 5%;
-}
-#card3{
-    margin-top: 10%;
-}
-
 .inside2 {
     text-align: center;
     margin: 0px 25px 0px 25px;
@@ -129,6 +115,9 @@ margin-left: 10%;
 
 
 @media (min-width:767px) and (max-width:1024px){
+
+
+    
 
     .cards_box{
         display: flex;
@@ -146,10 +135,25 @@ margin-left: 10%;
         margin-top: 13px;
     }
 
-
-
-
-
+    
+    #box2{
+        margin-left: 10%;
+        }
+    
+    #box3{
+            margin-left: 20%;
+        }
+        
+    #card2{
+            margin-top: 5%;
+        }
+    #card3{
+            margin-top: 10%;
+        }
+        
+        
+    
+       
 
 
 }
@@ -233,6 +237,20 @@ margin-left: 10%;
     .card{
         width: 350px;
     }
+
+    #box2{
+        margin-left: 10%;
+        }
+        #box3{
+            margin-left: 20%;
+        }
+        
+        #card2{
+            margin-top: 5%;
+        }
+        #card3{
+            margin-top: 10%;
+        }
 
     
 } 
