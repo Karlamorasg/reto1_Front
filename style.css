@@ -105,10 +105,26 @@ text-align: center;
 
 }
 
+
+#box2{
+margin-left: 10%;
+}
+#box3{
+    margin-left: 20%;
+}
+
+#card2{
+    margin-top: 5%;
+}
+#card3{
+    margin-top: 10%;
+}
+
 .inside2 {
     text-align: center;
     margin: 0px 25px 0px 25px;
 }
+
 
 
 
