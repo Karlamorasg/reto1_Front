@@ -117,8 +117,6 @@ text-align: center;
 @media (min-width:767px) and (max-width:1024px){
 
 
-    
-
     .cards_box{
         display: flex;
         flex-wrap: wrap;
@@ -134,26 +132,6 @@ text-align: center;
 
         margin-top: 13px;
     }
-
-    
-    #box2{
-        margin-left: 10%;
-        }
-    
-    #box3{
-            margin-left: 20%;
-        }
-        
-    #card2{
-            margin-top: 5%;
-        }
-    #card3{
-            margin-top: 10%;
-        }
-        
-        
-    
-       
 
 
 }
